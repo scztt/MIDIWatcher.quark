@@ -1,0 +1,16 @@
+(
+          name: "MIDIWatcher",
+       summary: "Receive notifications when midi devices are connected / disconnected.",
+        author: "scott@artificia.org",
+     copyright: "Frank Scott Carver, 2013",
+       license: "MIT",
+       version: "1.0.0 ",
+        schelp: "",
+          test: "",
+           url: "https://github.com/scztt/MIDIWatcher.quark",
+  dependencies: [
+
+                ],
+  isCompatible: true ,
+         since: ""
+)
