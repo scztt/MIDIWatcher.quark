@@ -1,0 +1,78 @@
+TITLE:: MIDIWatcher
+summary:: Watch for connections and disconnections of MIDI devices
+categories:: MIDI
+related:: Classes/MIDIIn, Classes/MIDIOut, Classes/MIDIFunc, External Controls/MIDI
+
+DESCRIPTION::
+MIDIWatcher provides a simple, global way to be notified of connections and disconnections of MIDI devices.
+It makes it easy to decouple the presence of a particular MIDI device from
+
+
+CLASSMETHODS::
+
+METHOD:: process
+(describe method here)
+
+returns:: (describe returnvalue here)
+
+METHOD:: frequency
+(describe method here)
+
+returns:: (describe returnvalue here)
+
+METHOD:: listeners
+(describe method here)
+
+returns:: (describe returnvalue here)
+
+METHOD:: update
+(describe method here)
+
+returns:: (describe returnvalue here)
+
+METHOD:: deviceSignal
+(describe method here)
+
+ARGUMENT:: device
+(describe argument here)
+
+ARGUMENT:: name
+(describe argument here)
+
+returns:: (describe returnvalue here)
+
+METHOD:: stop
+(describe method here)
+
+returns:: (describe returnvalue here)
+
+METHOD:: onChange
+(describe method here)
+
+ARGUMENT:: type
+(describe argument here)
+
+ARGUMENT:: endpoint
+(describe argument here)
+
+returns:: (describe returnvalue here)
+
+METHOD:: start
+(describe method here)
+
+returns:: (describe returnvalue here)
+
+METHOD:: initClass
+(describe method here)
+
+returns:: (describe returnvalue here)
+
+
+INSTANCEMETHODS::
+
+
+EXAMPLES::
+
+code::
+(some example code)
+::
