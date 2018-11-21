@@ -1,5 +1,5 @@
 MIDIWatcher {
-	classvar <process, <>frequency = 0.1;
+	classvar <process, <>frequency = 0.5;
 	classvar sources, destinations;
 	classvar <listeners;
 
