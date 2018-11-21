@@ -9,7 +9,7 @@
           test: "",
            url: "https://github.com/scztt/MIDIWatcher.quark",
   dependencies: [
-
+              		"Connection"
                 ],
   isCompatible: true ,
          since: ""
