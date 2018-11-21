@@ -15,7 +15,7 @@ MIDIWatcher {
 			process.stop();
 		};
 
-		process = SkipJack({ MIDIWatcher.update }, { MIDIWatcher.frequency }, name:MIDIWatcher);
+		process = SkipJack({ MIDIWatcher.update }, { MIDIWatcher.frequency }, name:'MIDIWatcher');
 	}
 
 	*stop {
