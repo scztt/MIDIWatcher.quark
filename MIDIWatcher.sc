@@ -30,7 +30,7 @@ MIDIWatcher {
 		MIDIClient.list;
 
 		sources = MIDIClient.sources.collectAs({ |e| e.asSymbol -> e }, IdentityDictionary);
-		destinations = MIDIClient.sources.collectAs({ |e| e.asSymbol -> e}, IdentityDictionary);
+		destinations = MIDIClient.destinations.collectAs({ |e| e.asSymbol -> e}, IdentityDictionary);
 
 		oldSources.keys.difference(sources.keys).do {
 			|removed|
